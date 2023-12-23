@@ -1,0 +1,512 @@
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+ul img{
+width:165px;
+height:30px;
+margin-left:25px;
+margin-top:20px;
+}
+ul{
+display:flex;
+justify-content:left;
+}
+li{
+list-style:none;
+margin-left:80px;
+margin-top:25px;
+}
+li a{
+font-family:arial;
+text-decoration:none;
+color:black;
+}
+li a:hover{
+color:#B0578D;
+}
+#search{
+margin-top:25px;
+margin-left:170px;
+}
+#search:hover{
+color:#B0578D;
+}
+#cart{
+margin-top:25px;
+margin-left:30px;
+}
+#cart:hover{
+color:#B0578D;
+}
+a{
+color:black;
+}
+.logo img{
+width:700px;
+height:500px;
+float:right;
+margin-top:50px;
+}
+.heading h1{
+margin-left:60px;
+font-size:70px;
+font-family:arial;
+margin-top:150px;
+color:#57375D;
+}
+.heading p{
+position:absolute;
+margin-left:60px;
+font-size:20px;
+font-family:arial;
+top:390px;
+color:#B0578D;
+}
+.heading a{
+position:absolute;
+top:520px;
+margin-left:60px;
+background-color:#B0578D;
+color:white;
+padding:15px 30px;
+border-radius:10px;
+font-family:arial;
+text-decoration:none;
+}
+.heading a:hover{
+color:#B0578D;
+background-color:white;
+border:1px solid #B0578D;
+}
+.pill1 img{
+position:absolute;
+margin-left:120px;
+top:870px;
+}
+.pillow1 img{
+position:absolute;
+margin-left:65px;
+top:820px;
+width:450px;
+height:450px;
+}
+.pill1 h2{
+position:abosolute;
+margin-left:800px;
+margin-top:520px;
+font-family:arial;
+color:#B0578D;
+}
+.pill1 h1{
+position:abosulte;
+margin-left:800px;
+font-size:50px;
+font-family:arial;
+color:#57375D;
+}
+.pill1 a{
+position:absolute;
+padding:20px 30px;
+border:1px solid #B0578D;
+border-radius:10px;
+color:#B0578D;
+margin-left:800px;
+text-decoration:none;
+font-family:arial;
+}
+.pill1 a:hover{
+color:white;
+background-color:#B0578D;
+}
+.pillow2 img{
+position:absolute;
+right:65px;
+top:1500px;
+width:450px;
+height:450px;
+}
+.pill2 img{
+position:absolute;
+right:120px;
+top:1550px;
+width:550px;
+height:450px;
+}
+.pill2 h2{
+position:abosolute;
+left:65px;
+margin-top:430px;
+font-family:arial;
+color:#B0578D;
+margin-left:65px;
+}
+.pill2 h1{
+position:abosulte;
+left:65px;
+font-size:50px;
+font-family:arial;
+color:#57375D;
+margin-left:65px;
+}
+.pill2 a{
+position:absolute;
+padding:20px 30px;
+border:1px solid #B0578D;
+border-radius:10px;
+color:#B0578D;
+text-decoration:none;
+font-family:arial;
+margin-left:65px;
+}
+.pill2 a:hover{
+color:white;
+background-color:#B0578D;
+} 
+.pillow3 img{
+position:absolute;
+left:65px;
+top:2200px;
+width:450px;
+height:450px;
+}
+.pill3 img{
+position:absolute;
+left:120px;
+top:2250px;
+width:550px;
+height:450px;
+}
+.pill3 h2{
+position:abosolute;
+right:65px;
+margin-top:430px;
+font-family:arial;
+color:#B0578D;
+margin-left:800px;
+}
+.pill3 h1{
+position:abosulte;
+right:65px;
+font-size:50px;
+font-family:arial;
+color:#57375D;
+margin-left:800px;
+}
+.pill3 a{
+position:absolute;
+padding:20px 30px;
+border:1px solid #B0578D;
+border-radius:10px;
+color:#B0578D;
+text-decoration:none;
+font-family:arial;
+margin-left:800px;
+}
+.pill3 a:hover{
+color:white;
+background-color:#B0578D;
+} 
+.product img{
+position:absolute;
+top:2900;
+width:1250px;
+height:1350px;
+}
+.product h1{
+position:absolute;
+top:3050px;
+font-family:arial;
+font-size:37px;
+margin-left:500px;
+color:#57375D;
+}
+.pic1 img{
+position:absolute;
+top:3200px;
+left:65px;
+}
+.pic2 img{
+position:absolute;
+top:3200px;
+left:460px;
+}
+.pic3 img{
+position:absolute;
+top:3200px;
+left:850px;
+}
+.pic1 h1{
+position:absolute;
+font-family:arial;
+top:3470px;
+color:#57375D;
+left:65px;
+}
+.pic2 h1{
+position:absolute;
+font-family:arial;
+top:3470px;
+color:#57375D;
+left:460px;
+}
+.pic3 h1{
+position:absolute;
+font-family:arial;
+top:3470px;
+color:#57375D;
+left:850px;
+}
+.pic1 h2{
+position:absolute;
+font-family:arial;
+top:3550px;
+color:#B0578D;
+left:65px;
+}
+.pic2 h2{
+position:absolute;
+font-family:arial;
+top:3550px;
+color:#B0578D;
+left:460px;
+}
+.pic3 h2{
+position:absolute;
+font-family:arial;
+top:3550px;
+color:#B0578D;
+left:850px;
+}
+.pic4 img{
+position:absolute;
+top:3660px;
+left:65px;
+}
+.pic5 img{
+position:absolute;
+top:3660px;
+left:460px;
+}
+.pic6 img{
+position:absolute;
+top:3660px;
+left:850px;
+}
+
+.pic4 h1{
+position:absolute;
+font-family:arial;
+top:3930px;
+color:#57375D;
+left:65px;
+}
+.pic5 h1{
+position:absolute;
+font-family:arial;
+top:3930px;
+color:#57375D;
+left:460px;
+}
+.pic6 h1{
+position:absolute;
+font-family:arial;
+top:3930px;
+color:#57375D;
+left:850px;
+}
+.pic4 h2{
+position:absolute;
+font-family:arial;
+top:4010px;
+color:#B0578D;
+left:65px;
+}
+.pic5 h2{
+position:absolute;
+font-family:arial;
+top:4010px;
+color:#B0578D;
+left:460px;
+}
+.pic6 h2{
+position:absolute;
+font-family:arial;
+top:4010px;
+color:#B0578D;
+left:850px;
+}
+.footpic img{
+position:absolute;
+top:4250;
+width:1250px;
+height:550px;
+}
+.footpic h1{
+position:absolute;
+top:4350;
+color:white;
+font-family:arial;
+left:350px;
+}
+.footpic h2{
+position:absolute;
+top:4440;
+color:white;
+font-family:arial;
+left:150px;
+}
+.footpic form{
+position:absolute;
+top:4555;
+color:#B0578D;
+left:355px;
+}
+.footpic ::placeholder{
+color:#B0578D;
+}
+.footpic input[type=text]{
+padding:15px 350px 15px 10px;
+border:1px solid white;
+border-radius:20px;
+}
+.footpic a{
+position:absolute;
+border:1px solid #B0578D;
+top:4559;
+color:white;
+left:785px;
+background-color:#B0578D;
+text-decoration:none;
+border-radius:20px;
+padding:10px;
+}
+.footpic a:hover{
+color:#B0578D;
+background-color:white;
+border:1px solid #B0578D;
+}
+</style>
+</head>
+<body>
+<nav>
+<ul>
+<a href=""><img src="https://preview.colorlib.com/theme/pillowmart/img/logo.png"></a>
+
+
+<li><a href="#"> Home </a></li>
+<li><a href="#"> About </a></li>
+<li><a href="#"> Product </a></li>
+<li><a href="#"> Pages </a></li>
+<li><a href="#"> Blog </a></li>
+<li><a href="#"> Contact </a></li>
+<a href="#"><i id="search" class="fa fa-search"></i></a>
+<a href="#"><i id="cart" class="fa fa-shopping-cart"></i></a>
+
+</ul>
+</nav>
+<br>
+
+<div class="logo">
+<img src="https://preview.colorlib.com/theme/pillowmart/img/banner.png">
+</div>
+
+<div class="heading">
+<h1>Best quality <br> pillow</h1>
+<p>Seamlessly empower fully researched growth <br> strategies and interoperable internal</p>
+<a href="#">Shop Now</a>
+</div>
+
+<div class="pillow1">
+<img src="https://preview.colorlib.com/theme/pillowmart/img/product_overlay.png">
+</div>
+
+<div class="pill1">
+<img src="https://preview.colorlib.com/theme/pillowmart/img/single_product_1.png">
+<h2 style="font-size:32px">Started from $10</h2>
+<h1>Printed memory foam brief modern throw pillow case</h1>
+<a href="#">EXPLORE NOW</a>
+</div>
+
+<div class="pillow2">
+<img src="https://preview.colorlib.com/theme/pillowmart/img/product_overlay.png">
+</div>
+
+<div class="pill2">
+<img src="https://preview.colorlib.com/theme/pillowmart/img/single_product_2.png">
+<h2 style="font-size:32px">Started from $10</h2>
+<h1>Printed memory foam <br> brief modern throw <br> pillow case</h1>
+<a href="#">EXPLORE NOW</a>
+</div>
+
+<div class="pillow3">
+<img src="https://preview.colorlib.com/theme/pillowmart/img/product_overlay.png">
+</div>
+
+<div class="pill3">
+<img src="https://preview.colorlib.com/theme/pillowmart/img/single_product_3.png">
+<h2 style="font-size:32px">Started from $10</h2>
+<h1>Printed memory foam brief modern throw pillow case</h1>
+<a href="#">EXPLORE NOW</a>
+</div>
+
+<div class="product">
+<img src="https://img.freepik.com/free-photo/studio-background-concept-abstract-empty-light-gradient-purple-studio-room-background-product_1258-88346.jpg?w=900&t=st=1698585773~exp=1698586373~hmac=59c1fa95227d87904aef2619dcf62b8cafe70f80eef983d432a8decebe2def7a">
+<h1>Trending Items</h1>
+</div>
+
+<div class="pictures">
+<div class="pic1">
+<img src="https://preview.colorlib.com/theme/pillowmart/img/tranding_item/tranding_item_1.png">
+<a href="#"><h1 style="font-size:27px">Cervical pillow for airplane <br> car office nap pillow</h1></a>
+<h2>From $5</h2>
+</div>
+
+<div class="pic2">
+<img src="https://preview.colorlib.com/theme/pillowmart/img/tranding_item/tranding_item_2.png">
+<a href="#"><h1 style="font-size:27px">Foam filling cotton slow <br> rebound pillows</h1></a>
+<h2>From $5</h2>
+</div>
+
+<div class="pic3">
+<img src="https://preview.colorlib.com/theme/pillowmart/img/tranding_item/tranding_item_3.png">
+<a href="#"><h1  style="font-size:27px">Memory foam filling cotton <br> Slow rebound pillows</h1></a>
+<h2>From $5</h2>
+</div>
+
+<div class="pic4">
+<img src="https://preview.colorlib.com/theme/pillowmart/img/tranding_item/tranding_item_4.png">
+<a href="#"><h1 style="font-size:27px">Cervical pillow for airplane <br> car office nap pillow</h1></a>
+<h2>From $5</h2>
+</div>
+
+<div class="pic5">
+<img src="https://preview.colorlib.com/theme/pillowmart/img/tranding_item/tranding_item_5.png">
+<a href="#"><h1 style="font-size:27px">Foam filling cotton slow <br> rebound pillows</h1></a>
+<h2>From $5</h2>
+</div>
+
+<div class="pic6">
+<img src="https://preview.colorlib.com/theme/pillowmart/img/tranding_item/tranding_item_6.png">
+<a href="#"><h1 style="font-size:27px">Memory foam filling cotton <br> Slow rebound pillows</h1></a>
+<h2>From $5</h2>
+</div>
+
+</div>
+
+<div class="footpic">
+<img src="https://img.freepik.com/premium-photo/purple-gradient-background-purple-blurry-background-purple-pastel-gradient-wallpaper_613001-5916.jpg?size=626&ext=jpg&ga=GA1.1.114583343.1696601915&semt=ais">
+<h1 style="font-size:40px">Get promotions & updates!</h1>
+<h2 style="font-size:20px">Seamlessly empower fully researched growth strategies and interoperable internal or “organic” sources <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp credibly innovate granular internal.</h2>
+
+<form>
+<input type="text" placeholder="Enter your mail">
+</form>
+<a href="#subscribe">Subscribe</a>
+</div>
+
+
+
+</body>
+</html>
